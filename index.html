@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ambica Mobile World - Your Trusted Destination for High-End Devices & Reliable Repairs in Palanpur.">
+    <meta name="keywords" content="Mobile phones, smartphones, Apple, Samsung, repair, true wireless, accessories, Palanpur">
+    <title>Ambica Mobile World | Premium Smartphones & Repair Services</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-theme">
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo" style="flex-direction: row; gap: 10px; align-items: center;">
+                <img src="assets/logo.jpg" alt="Ambica Logo" class="brand-logo" onerror="this.style.display='none';">
+                <div class="logo-text-wrapper" style="display: flex; flex-direction: column;">
+                    <span class="logo-text">AMBICA</span>
+                    <span class="logo-sub">Mobile World</span>
+                </div>
+            </a>
+            
+            <button class="mobile-menu-btn" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <nav class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About Us</a>
+                <a href="#smartphones" class="nav-link">Smartphones</a>
+                <a href="#accessories" class="nav-link">Accessories</a>
+                <a href="#repair" class="nav-link">Repair Services</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            
+            <a href="#repair" class="btn btn-outline nav-cta">
+                <i class="fa-solid fa-tools"></i> Book Repair
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero fade-in">
+            <div class="hero-bg">
+                <div class="blob blob-1"></div>
+                <div class="blob blob-2"></div>
+                <div class="blob blob-3"></div>
+                <div class="glass-overlay"></div>
+            </div>
+            
+            <div class="container hero-content">
+                <div class="hero-badge slide-up">Premium Tech Destination</div>
+                <h1 class="hero-title slide-up" style="--delay: 0.1s">
+                    Experience the Future<br>
+                    of Mobile <span class="highlight">in Palanpur.</span>
+                </h1>
+                <p class="hero-subtitle slide-up" style="--delay: 0.2s">Ambica Mobile World: Your Trusted Destination for High-End Devices & Reliable Repairs.</p>
+                <div class="hero-actions slide-up" style="--delay: 0.3s">
+                    <a href="#categories" class="btn btn-primary btn-glow">Shop Now</a>
+                    <a href="#repair" class="btn btn-secondary">Book a Repair</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Premium Smartphones -->
+        <section id="smartphones" class="section categories">
+            <div class="container">
+                <div class="section-header slide-up">
+                    <h2>Premium Smartphones</h2>
+                    <p>Experience flagship performance and groundbreaking design.</p>
+                </div>
+                
+                <div class="grid categories-grid">
+                    <a href="#contact" class="card category-card image-card slide-up" style="--delay: 0.1s">
+                        <img src="assets/smart_apple.png" alt="Apple iPhone" loading="lazy">
+                        <div class="card-content-overlay">
+                            <h3>Apple Zone</h3>
+                            <p>Pro cameras & performance</p>
+                        </div>
+                    </a>
+                    
+                    <a href="#contact" class="card category-card image-card slide-up" style="--delay: 0.2s">
+                        <img src="assets/smart_samsung.png" alt="Samsung Galaxy" loading="lazy">
+                        <div class="card-content-overlay">
+                            <h3>Samsung Hub</h3>
+                            <p>Galaxy S24 Ultra & Fold</p>
+                        </div>
+                    </a>
+                    
+                    <a href="#contact" class="card category-card image-card slide-up" style="--delay: 0.3s">
+                         <img src="assets/letestandroid.png" alt="Latest Android Devices" loading="lazy">
+                         <div class="card-content-overlay">
+                             <h3>Latest Androids</h3>
+                             <p>OnePlus, Google, & more</p>
+                         </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Essential Accessories -->
+        <section id="accessories" class="section categories bg-alt" style="background-color: rgba(255, 255, 255, 0.01); border-top: 1px solid var(--border-light); border-bottom: 1px solid var(--border-light);">
+            <div class="container">
+                <div class="section-header slide-up">
+                    <h2>Essential Accessories</h2>
+                    <p>Elevate your experience with premium audio and power.</p>
+                </div>
+                
+                <div class="grid categories-grid">
+                    <a href="#contact" class="card category-card image-card slide-up" style="--delay: 0.1s">
+                        <img src="assets/acc_charger.png" alt="True Wireless Audio" loading="lazy">
+                        <div class="card-content-overlay">
+                            <h3>True Wireless Audio</h3>
+                            <p>Premium Earbuds & Headphones</p>
+                        </div>
+                    </a>
+                    
+                    <a href="#contact" class="card category-card image-card slide-up" style="--delay: 0.2s">
+                        <img src="assets/charger11.png" alt="Power & Cables" loading="lazy">
+                        <div class="card-content-overlay">
+                            <h3>Power & Protection</h3>
+                            <p>Fast Chargers & Premium Cases</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Repair Services -->
+        <section id="repair" class="section repair-services">
+            <div class="repair-glow-bg"></div>
+            <div class="container split-layout relative z-index-2">
+                <div class="split-text slide-right z-index-2">
+                    <div class="chip glass-chip">Expert Services</div>
+                    <h2 class="gradient-text">Mobile Repair Excellence</h2>
+                    <p class="repair-desc">We bring your devices back to life. From shattered screens to complex motherboard issues, our certified technicians handle it all with clinical precision.</p>
+                    
+                    <div class="glass-features">
+                        <div class="glass-feature-card">
+                            <div class="list-icon"><i class="fa-solid fa-microchip"></i></div>
+                            <div class="list-text">
+                                <strong>Original Parts Guarantee</strong>
+                                <span>We source legitimate components.</span>
+                            </div>
+                        </div>
+                        <div class="glass-feature-card">
+                            <div class="list-icon"><i class="fa-solid fa-bolt"></i></div>
+                            <div class="list-text">
+                                <strong>Express Data-Safe Service</strong>
+                                <span>Fast repairs with absolute data security.</span>
+                            </div>
+                        </div>
+                        <div class="glass-feature-card">
+                            <div class="list-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                            <div class="list-text">
+                                <strong>Comprehensive Warranty</strong>
+                                <span>Post-repair support you can rely on.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary btn-glow mt-4">Schedule a Repair</a>
+                </div>
+                
+                <div class="split-image slide-left z-index-2">
+                    <div class="image-glass-frame">
+                        <img src="assets/repair_motherboard.png" alt="Precision tweezers repairing motherboard" class="glow-effect" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header center slide-up">
+                    <h2>About Us</h2>
+                    <p>Your Trusted Local Tech Partner</p>
+                </div>
+                <div class="about-content slide-up" style="max-width: 800px; margin: 0 auto; text-align: center;">
+                    <p style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main);">Ambika Mobile World started with a simple goal: to bring the best mobile phones and expert repair services to Palanpur. For many years, we have been the most trusted shop for people looking for the latest smartphones and high-quality accessories. We believe in being honest and providing the best quality to our customers. Whether you want to buy a new phone or need to fix your old one, we are here to help you with the best service.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us -->
+        <section id="why-us" class="section why-us">
+            <div class="container">
+                <div class="section-header slide-up">
+                    <h2>Why Choose Us</h2>
+                    <p>The Ambica Advantage</p>
+                </div>
+                
+                <div class="grid three-cols">
+                    <div class="feature-box slide-up" style="--delay: 0.1s">
+                        <div class="feature-icon"><i class="fa-solid fa-layer-group"></i></div>
+                        <h4>Unmatched Selection</h4>
+                        <p>Access the widest range of high-end smartphones and premium accessories in the palanpur.</p>
+                    </div>
+                    
+                    <div class="feature-box slide-up" style="--delay: 0.2s">
+                        <div class="feature-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                        <h4>Certified Techs</h4>
+                        <p>Our experts use specialized, professional equipment for flawless repairs.</p>
+                    </div>
+                    
+                    <div class="feature-box slide-up" style="--delay: 0.3s">
+                        <div class="feature-icon"><i class="fa-solid fa-medal"></i></div>
+                        <h4>Trusted in Palanpur</h4>
+                        <p>Serving the community with honesty and technical excellence since 1995.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section id="testimonials" class="section testimonials">
+            <div class="container">
+                <div class="section-header center slide-up">
+                    <h2>What Our Customers Say</h2>
+                </div>
+                
+                <div class="grid testimonial-grid">
+                    <div class="testimonial-card slide-up" style="--delay: 0.1s">
+                        <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                        <p class="quote">"Absolutely the best mobile store in Palanpur. Fixed my iPhone screen in under an hour perfectly!"</p>
+                        <div class="author">
+                            <div class="avatar"><i class="fa-solid fa-user-astronaut"></i></div>
+                            <div>
+                                <h5>Yuvraj Aelliya</h5>
+                                <span class="stars">
+                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card slide-up" style="--delay: 0.2s">
+                        <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                        <p class="quote">"Bought an S24 Ultra here. The service was premium and they helped transfer all data smoothly."</p>
+                        <div class="author">
+                            <div class="avatar"><i class="fa-solid fa-user-tie"></i></div>
+                            <div>
+                                <h5>Pooja Suthar</h5>
+                                <span class="stars">
+                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand slide-up">
+                <a href="#home" class="logo" style="flex-direction: column; align-items: flex-start;">
+                    <span class="logo-text" style="font-size: 1.8rem;">AMBICA</span>
+                    <span class="logo-sub" style="color: var(--accent); font-size: 0.9rem; letter-spacing: 1px; text-transform: uppercase; font-weight: 600;">Mobile World</span>
+                </a>
+                <p class="mt-2">Your Trusted Destination for High-End Devices & Reliable Repairs.</p>
+            </div>
+            
+            <div class="footer-contact slide-up">
+                <h4>Contact Info</h4>
+                <p><a href="https://maps.app.goo.gl/VJg8FvJBZs7azJpU6?g_st=aw" target="_blank" class="contact-link"><i class="fa-solid fa-location-dot"></i> Shop No 64, Old Market Yard, Opposite SBI Bank, Palanpur</a></p>
+                <p><a href="tel:+919376766677" class="contact-link"><i class="fa-solid fa-phone"></i> +91 93767 66677</a></p>
+                <p><a href="mailto:contact@ambicamobile.in" class="contact-link"><i class="fa-solid fa-envelope"></i> contact@ambicamobile.in</a></p>
+            </div>
+            
+            <div class="footer-links slide-up">
+                <h4>Quick Links</h4>
+                <nav>
+                    <a href="#home">Home</a>
+                    <a href="#repair">Repair Booking</a>
+                    <a href="sitemap.html">Sitemap</a>
+                    <a href="privacy.html">Privacy Policy</a>
+                </nav>
+            </div>
+            
+            <div class="footer-social slide-up">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/people/Ambica-Mobile-World/100089773606145/" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/ambicamobileworld/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container footer-bottom-flex" style="justify-content: center; flex-direction: column; text-align: center; gap: 0.5rem;">
+                <p>&copy; 2026 Ambica Mobile World. All rights reserved.</p>
+                <p>Designed with <i class="fa-solid fa-heart" style="color: #ff0000;"></i> by Yuvraj Aelliya</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
